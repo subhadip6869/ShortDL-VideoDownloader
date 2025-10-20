@@ -1,0 +1,27 @@
+{
+  "name": "shortdl-video-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subhadip6869/ShortDL-VideoDownloader.git"
+  },
+  "author": "Subhadip Dutta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/subhadip6869/ShortDL-VideoDownloader/issues"
+  },
+  "homepage": "https://github.com/subhadip6869/ShortDL-VideoDownloader#readme",
+  "dependencies": {
+    "@distube/ytdl-core": "^4.16.12",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
